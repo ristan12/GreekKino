@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E8030112BF7A3F1006AF270 /* GreekKinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030102BF7A3F1006AF270 /* GreekKinoApp.swift */; };
+		8E8030152BF7A3F2006AF270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8030142BF7A3F2006AF270 /* Assets.xcassets */; };
+		8E8030182BF7A3F2006AF270 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8030172BF7A3F2006AF270 /* Preview Assets.xcassets */; };
+		8E80301F2BF7A46D006AF270 /* GreekKinoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80301E2BF7A46D006AF270 /* GreekKinoTabView.swift */; };
+		8E8030252BF7A520006AF270 /* FutureDrawsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030242BF7A520006AF270 /* FutureDrawsView.swift */; };
+		8E8030272BF7A52D006AF270 /* FutureDrawsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030262BF7A52D006AF270 /* FutureDrawsViewModel.swift */; };
+		8E80302A2BF7A5B1006AF270 /* KinoDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030292BF7A5B1006AF270 /* KinoDraw.swift */; };
+		8E80302D2BF7A91D006AF270 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80302C2BF7A91D006AF270 /* Date.swift */; };
+		8E8030302BF7AC71006AF270 /* KinoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80302F2BF7AC71006AF270 /* KinoAPIManager.swift */; };
+		8E8030332BF8B339006AF270 /* DrawEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030322BF8B339006AF270 /* DrawEntryView.swift */; };
+		8E8030352BF8B347006AF270 /* DrawEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030342BF8B347006AF270 /* DrawEntryViewModel.swift */; };
+		8E80303A2BF8BD16006AF270 /* FutureDrawCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030392BF8BD16006AF270 /* FutureDrawCellView.swift */; };
+		8E80303E2BF8BDC8006AF270 /* DrawEntryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80303D2BF8BDC8006AF270 /* DrawEntryHeaderView.swift */; };
+		8E8030402BF8BF04006AF270 /* DrawEntryFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80303F2BF8BF04006AF270 /* DrawEntryFooterView.swift */; };
+		8E8030422BF8C254006AF270 /* TalonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030412BF8C254006AF270 /* TalonView.swift */; };
+		8E8030442BF8F92C006AF270 /* DrawAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030432BF8F92C006AF270 /* DrawAnimationView.swift */; };
+		8E8030462BF8FF02006AF270 /* PastDrawsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030452BF8FF02006AF270 /* PastDrawsView.swift */; };
+		8E8030482BF8FF23006AF270 /* PastDrawsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030472BF8FF23006AF270 /* PastDrawsViewModel.swift */; };
+		8E80304A2BF905A3006AF270 /* DrawnTalonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030492BF905A3006AF270 /* DrawnTalonView.swift */; };
+		8E80304C2BF90CFB006AF270 /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80304B2BF90CFB006AF270 /* TicketsView.swift */; };
+		8E80304E2BF90D09006AF270 /* TicketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80304D2BF90D09006AF270 /* TicketsViewModel.swift */; };
+		8E8030502BF90DA8006AF270 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80304F2BF90DA8006AF270 /* Ticket.swift */; };
+		8E8030522BF90E36006AF270 /* TicketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030512BF90E36006AF270 /* TicketManager.swift */; };
+		8E8030542BF90F0E006AF270 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8030532BF90F0E006AF270 /* FileManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E80300D2BF7A3F1006AF270 /* GreekKino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreekKino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8030102BF7A3F1006AF270 /* GreekKinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekKinoApp.swift; sourceTree = "<group>"; };
+		8E8030142BF7A3F2006AF270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E8030172BF7A3F2006AF270 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E80301E2BF7A46D006AF270 /* GreekKinoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekKinoTabView.swift; sourceTree = "<group>"; };
+		8E8030242BF7A520006AF270 /* FutureDrawsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureDrawsView.swift; sourceTree = "<group>"; };
+		8E8030262BF7A52D006AF270 /* FutureDrawsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureDrawsViewModel.swift; sourceTree = "<group>"; };
+		8E8030292BF7A5B1006AF270 /* KinoDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoDraw.swift; sourceTree = "<group>"; };
+		8E80302C2BF7A91D006AF270 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		8E80302F2BF7AC71006AF270 /* KinoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoAPIManager.swift; sourceTree = "<group>"; };
+		8E8030322BF8B339006AF270 /* DrawEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawEntryView.swift; sourceTree = "<group>"; };
+		8E8030342BF8B347006AF270 /* DrawEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawEntryViewModel.swift; sourceTree = "<group>"; };
+		8E8030392BF8BD16006AF270 /* FutureDrawCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureDrawCellView.swift; sourceTree = "<group>"; };
+		8E80303D2BF8BDC8006AF270 /* DrawEntryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawEntryHeaderView.swift; sourceTree = "<group>"; };
+		8E80303F2BF8BF04006AF270 /* DrawEntryFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawEntryFooterView.swift; sourceTree = "<group>"; };
+		8E8030412BF8C254006AF270 /* TalonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonView.swift; sourceTree = "<group>"; };
+		8E8030432BF8F92C006AF270 /* DrawAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawAnimationView.swift; sourceTree = "<group>"; };
+		8E8030452BF8FF02006AF270 /* PastDrawsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastDrawsView.swift; sourceTree = "<group>"; };
+		8E8030472BF8FF23006AF270 /* PastDrawsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastDrawsViewModel.swift; sourceTree = "<group>"; };
+		8E8030492BF905A3006AF270 /* DrawnTalonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawnTalonView.swift; sourceTree = "<group>"; };
+		8E80304B2BF90CFB006AF270 /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
+		8E80304D2BF90D09006AF270 /* TicketsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewModel.swift; sourceTree = "<group>"; };
+		8E80304F2BF90DA8006AF270 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		8E8030512BF90E36006AF270 /* TicketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketManager.swift; sourceTree = "<group>"; };
+		8E8030532BF90F0E006AF270 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E80300A2BF7A3F1006AF270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E8030042BF7A3F1006AF270 = {
+			isa = PBXGroup;
+			children = (
+				8E80300F2BF7A3F1006AF270 /* GreekKino */,
+				8E80300E2BF7A3F1006AF270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E80300E2BF7A3F1006AF270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E80300D2BF7A3F1006AF270 /* GreekKino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E80300F2BF7A3F1006AF270 /* GreekKino */ = {
+			isa = PBXGroup;
+			children = (
+				8E8030362BF8BCD4006AF270 /* Views */,
+				8E80302E2BF7AC62006AF270 /* Managers */,
+				8E80302B2BF7A90E006AF270 /* Utilities */,
+				8E8030282BF7A5A4006AF270 /* Model */,
+				8E8030202BF7A47F006AF270 /* Screens */,
+				8E8030102BF7A3F1006AF270 /* GreekKinoApp.swift */,
+				8E8030142BF7A3F2006AF270 /* Assets.xcassets */,
+				8E8030162BF7A3F2006AF270 /* Preview Content */,
+			);
+			path = GreekKino;
+			sourceTree = "<group>";
+		};
+		8E8030162BF7A3F2006AF270 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E8030172BF7A3F2006AF270 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E8030202BF7A47F006AF270 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8E80301E2BF7A46D006AF270 /* GreekKinoTabView.swift */,
+				8E8030212BF7A4A1006AF270 /* FutureDraws */,
+				8E8030312BF8B325006AF270 /* DrawEntry */,
+				8E8030222BF7A4AA006AF270 /* PastDraws */,
+				8E8030232BF7A4B2006AF270 /* Tickets */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8E8030212BF7A4A1006AF270 /* FutureDraws */ = {
+			isa = PBXGroup;
+			children = (
+				8E8030242BF7A520006AF270 /* FutureDrawsView.swift */,
+				8E8030262BF7A52D006AF270 /* FutureDrawsViewModel.swift */,
+			);
+			path = FutureDraws;
+			sourceTree = "<group>";
+		};
+		8E8030222BF7A4AA006AF270 /* PastDraws */ = {
+			isa = PBXGroup;
+			children = (
+				8E8030452BF8FF02006AF270 /* PastDrawsView.swift */,
+				8E8030472BF8FF23006AF270 /* PastDrawsViewModel.swift */,
+			);
+			path = PastDraws;
+			sourceTree = "<group>";
+		};
+		8E8030232BF7A4B2006AF270 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				8E80304B2BF90CFB006AF270 /* TicketsView.swift */,
+				8E80304D2BF90D09006AF270 /* TicketsViewModel.swift */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		8E8030282BF7A5A4006AF270 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E8030292BF7A5B1006AF270 /* KinoDraw.swift */,
+				8E80304F2BF90DA8006AF270 /* Ticket.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E80302B2BF7A90E006AF270 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8E80302C2BF7A91D006AF270 /* Date.swift */,
+				8E8030532BF90F0E006AF270 /* FileManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8E80302E2BF7AC62006AF270 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8E80302F2BF7AC71006AF270 /* KinoAPIManager.swift */,
+				8E8030512BF90E36006AF270 /* TicketManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8E8030312BF8B325006AF270 /* DrawEntry */ = {
+			isa = PBXGroup;
+			children = (
+				8E8030322BF8B339006AF270 /* DrawEntryView.swift */,
+				8E8030342BF8B347006AF270 /* DrawEntryViewModel.swift */,
+			);
+			path = DrawEntry;
+			sourceTree = "<group>";
+		};
+		8E8030362BF8BCD4006AF270 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E8030382BF8BCE6006AF270 /* Subviews */,
+				8E8030372BF8BCDF006AF270 /* Cells */,
+				8E8030432BF8F92C006AF270 /* DrawAnimationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E8030372BF8BCDF006AF270 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8E8030392BF8BD16006AF270 /* FutureDrawCellView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8E8030382BF8BCE6006AF270 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				8E80303D2BF8BDC8006AF270 /* DrawEntryHeaderView.swift */,
+				8E80303F2BF8BF04006AF270 /* DrawEntryFooterView.swift */,
+				8E8030412BF8C254006AF270 /* TalonView.swift */,
+				8E8030492BF905A3006AF270 /* DrawnTalonView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E80300C2BF7A3F1006AF270 /* GreekKino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E80301B2BF7A3F2006AF270 /* Build configuration list for PBXNativeTarget "GreekKino" */;
+			buildPhases = (
+				8E8030092BF7A3F1006AF270 /* Sources */,
+				8E80300A2BF7A3F1006AF270 /* Frameworks */,
+				8E80300B2BF7A3F1006AF270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreekKino;
+			productName = GreekKino;
+			productReference = 8E80300D2BF7A3F1006AF270 /* GreekKino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E8030052BF7A3F1006AF270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8E80300C2BF7A3F1006AF270 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 8E8030082BF7A3F1006AF270 /* Build configuration list for PBXProject "GreekKino" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E8030042BF7A3F1006AF270;
+			productRefGroup = 8E80300E2BF7A3F1006AF270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E80300C2BF7A3F1006AF270 /* GreekKino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E80300B2BF7A3F1006AF270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8030182BF7A3F2006AF270 /* Preview Assets.xcassets in Resources */,
+				8E8030152BF7A3F2006AF270 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E8030092BF7A3F1006AF270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E80304C2BF90CFB006AF270 /* TicketsView.swift in Sources */,
+				8E80303E2BF8BDC8006AF270 /* DrawEntryHeaderView.swift in Sources */,
+				8E8030112BF7A3F1006AF270 /* GreekKinoApp.swift in Sources */,
+				8E80304E2BF90D09006AF270 /* TicketsViewModel.swift in Sources */,
+				8E8030332BF8B339006AF270 /* DrawEntryView.swift in Sources */,
+				8E8030442BF8F92C006AF270 /* DrawAnimationView.swift in Sources */,
+				8E8030522BF90E36006AF270 /* TicketManager.swift in Sources */,
+				8E8030542BF90F0E006AF270 /* FileManager.swift in Sources */,
+				8E80304A2BF905A3006AF270 /* DrawnTalonView.swift in Sources */,
+				8E8030502BF90DA8006AF270 /* Ticket.swift in Sources */,
+				8E8030352BF8B347006AF270 /* DrawEntryViewModel.swift in Sources */,
+				8E80302D2BF7A91D006AF270 /* Date.swift in Sources */,
+				8E8030302BF7AC71006AF270 /* KinoAPIManager.swift in Sources */,
+				8E8030402BF8BF04006AF270 /* DrawEntryFooterView.swift in Sources */,
+				8E8030482BF8FF23006AF270 /* PastDrawsViewModel.swift in Sources */,
+				8E80302A2BF7A5B1006AF270 /* KinoDraw.swift in Sources */,
+				8E80301F2BF7A46D006AF270 /* GreekKinoTabView.swift in Sources */,
+				8E80303A2BF8BD16006AF270 /* FutureDrawCellView.swift in Sources */,
+				8E8030422BF8C254006AF270 /* TalonView.swift in Sources */,
+				8E8030252BF7A520006AF270 /* FutureDrawsView.swift in Sources */,
+				8E8030462BF8FF02006AF270 /* PastDrawsView.swift in Sources */,
+				8E8030272BF7A52D006AF270 /* FutureDrawsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E8030192BF7A3F2006AF270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E80301A2BF7A3F2006AF270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E80301C2BF7A3F2006AF270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreekKino/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RX7U2UAMX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xy.GreekKino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E80301D2BF7A3F2006AF270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreekKino/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RX7U2UAMX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xy.GreekKino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E8030082BF7A3F1006AF270 /* Build configuration list for PBXProject "GreekKino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8030192BF7A3F2006AF270 /* Debug */,
+				8E80301A2BF7A3F2006AF270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E80301B2BF7A3F2006AF270 /* Build configuration list for PBXNativeTarget "GreekKino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E80301C2BF7A3F2006AF270 /* Debug */,
+				8E80301D2BF7A3F2006AF270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E8030052BF7A3F1006AF270 /* Project object */;
+}
