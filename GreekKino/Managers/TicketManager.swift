@@ -39,7 +39,8 @@ class TicketManager {
 										   drawId: ticket.drawId,
 										   numbers: ticket.numbers,
 										   quote: ticket.quote,
-										   state: Set(ticket.numbers).intersection(winningNumbers).count == ticket.numbers.count ? .winning : .loosing)
+										   state: Set(ticket.numbers).intersection(winningNumbers).count == ticket.numbers.count ? .winning : .loosing,
+										   timestamp: ticket.timestamp)
 				_ = saveTicket(updatedTicket)
 			}
 			readAllTickets()
@@ -76,6 +77,6 @@ class TicketManager {
 			print("failed reading tickets")
 		}
 
-		self.tickets = ticketList.sorted(by: { $0.drawId > $1.drawId })
+		self.tickets = ticketList.sorted(by: { $0.timestamp > $1.timestamp })
 	}
 }

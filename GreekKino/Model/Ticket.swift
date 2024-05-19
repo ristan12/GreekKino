@@ -20,13 +20,15 @@ struct Ticket: Codable, Identifiable {
 	let numbers: [Int]
 	let quote: Double
 	let state: TicketState
+	let timestamp: Date
 
-	init(id: UUID, drawId: String, numbers: [Int], quote: Double, state: TicketState = .pending) {
+	init(id: UUID, drawId: String, numbers: [Int], quote: Double, state: TicketState = .pending, timestamp: Date = Date.now) {
 		self.id = id
 		self.drawId = drawId
 		self.numbers = numbers
 		self.quote = quote
 		self.state = state
+		self.timestamp = timestamp
 	}
 
 	var stateColor: Color {
